@@ -23,7 +23,7 @@ class LoginScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.white,
+      backgroundColor: const Color.fromARGB(255, 70, 70, 70),
       body: SafeArea(
         child: Center(
           child: Column(
@@ -34,7 +34,12 @@ class LoginScreen extends StatelessWidget {
                 style: TextStyle(
                   fontSize: 28, // Tamaño de letra grande
                   fontWeight: FontWeight.bold, // Negrita
-                  color: Colors.black87, // Color negro suave
+                  color: Color.fromARGB(
+                    221,
+                    255,
+                    255,
+                    255,
+                  ), // Color negro suave
                 ),
               ),
               const Text(
@@ -43,9 +48,9 @@ class LoginScreen extends StatelessWidget {
                   fontSize: 16, // Tamaño de letra grande
                   color: Color.fromARGB(
                     221,
-                    141,
-                    141,
-                    141,
+                    216,
+                    216,
+                    216,
                   ), // Color negro suave
                 ),
               ),
